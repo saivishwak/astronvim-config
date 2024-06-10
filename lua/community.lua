@@ -8,7 +8,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.rust", opts = { rust_analyzer = { proc_macro = true, all_features = true } } },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.cpp" },
   -- import/override with your plugins folder

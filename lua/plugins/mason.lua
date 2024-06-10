@@ -29,12 +29,12 @@ return {
   {
     "jay-babu/mason-nvim-dap.nvim",
     -- overrides `require("mason-nvim-dap").setup(...)`
-     opts = {
+    opts = {
       ensure_installed = {
-       "codelldb",
-       "cpptools",
+        "codelldb",
+        "cpptools",
       },
       automatic_installation = true,
-    }
+    },
   },
 }
