@@ -32,3 +32,11 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+To Uninstall AstroVim
+```shell
+rm -rf ~/.config/nvim \
+  ~/.local/share/nvim \
+  ~/.local/state/nvim \
+  ~/.cache/nvim
+```
